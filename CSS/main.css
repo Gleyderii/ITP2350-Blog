@@ -1,0 +1,79 @@
+/************************************
+*       Style para Header y Nav
+*
+*************************************/
+
+header{
+    text-align: center;
+    background: url("https://i.ytimg.com/vi/hu6hIhW00Fk/maxresdefault.jpg");
+    background-size: cover;
+    color: red;
+}
+
+h1{
+    font-size: 70px;
+}
+nav{
+    text-align: center;
+    background-color: black;
+    
+}
+
+
+li{
+    list-style: none;
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 40px;
+    width: 25%;
+}
+
+/************************************
+*      Section
+*
+*************************************/
+
+article{
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+/************************************
+*      Responsive Design
+*
+*************************************/
+
+@media (max-width: 500px) {
+    h1 {font-size: 36px;}
+    
+    li{
+        display: block;
+        padding: 5px;
+    }
+}
+
+/************************************
+*      Footer
+*
+*************************************/
+
+footer{
+    max-height:30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
